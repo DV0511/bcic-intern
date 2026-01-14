@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Daniela's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <header>
+        <!-- Navbar -->
+         <!--This code (lines 12 - 1) creates a navigation bar on top of the webpage.-->
+        <nav class="navbar navbar-expand-lg" style="background-color: #ffbb00;">
+            <div class="container d-flex justify content between">
+                <img src="assets/download (1)" alt="bird test photo" style="height: 65px; width: 55;" class="d-inline-block align-text-top"/>
+            </div>
+            <div>
+                <a href="#about" class="navbar-brand" style="color: white;">About Me</a>
+            </div>
+            <div class="container">
+                <span class="navbar-brand">My Portfolio</span>
+            </div>
+        </nav>
+        <!-----Hero----->
+        <section id="hero" class="container mt-5 text-center">
+            <img src="assets/download (1)" alt="Daniela's Photo" class="rounded-circle mb-3"
+                style="height: 150px; width: 165px;" />
+            <h1>Daniela Vasquez</h1>
+            <p class="description">Student | Computer Science Major | Artist</p>
+        </section>
         <h1>Welcome to Daniela's Portfolio</h1>
     </header>
     <main>
@@ -16,5 +37,5 @@
         <button class="styled-button">Click Me!</button>
     </main>
     <footer>
-        <p>&copy; 2026 My Portfolio</p>
+        <p>&copy; 2026 Daniela Vasquez</p>
     </footer>
