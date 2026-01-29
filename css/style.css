@@ -1,0 +1,23 @@
+body {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 247, 231, 0.575);
+    z-index: -1;
+}
+.custom-navbar {
+    background-color: #9400d3;
+}
+.hero {
+    padding: 100px 0;
+    color: #221901;
+}
